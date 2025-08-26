@@ -1,9 +1,9 @@
 name: Run Books Scraper
 
-on:
-  schedule:
-    - cron: "0 */6 * * *"   # Kör var 6:e timme
-  workflow_dispatch:         # Gör det möjligt att köra manuellt
+# on:
+#  schedule:
+#    - cron: "0 */6 * * *"   # Kör var 6:e timme
+#  workflow_dispatch:         # Gör det möjligt att köra manuellt
 
 jobs:
   scrape:
